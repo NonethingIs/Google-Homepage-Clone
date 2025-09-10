@@ -1,0 +1,6 @@
+mkdir docs
+mv index.html docs/
+mv assets docs/
+git add docs
+git commit -m "Move site files to docs directory for GitHub Pages build"
+git push
